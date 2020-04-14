@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* a{
+  text-decoration: none;
+} */
+
+.link{
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 100%;
+  
+}
+.link a{
+  padding: .5rem;
+
+} 
+
+/* 左右分栏 */
+
+.content{
+  width:100%;
+  height:500px;
+  display: flex;
+}
+
+.content .left{
+  width:20%;
+  height:500px;
+  background-color: #eee;
+  text-align: center;
+  border-style: dashed;
+  padding-top: 1rem;
+}
+
+.content .right{
+  flex: 1;
+  border-style: dashed;
+  border-color: paleturquoise;
+}
+
+.user .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.user .trigger:hover {
+  color: #1890ff;
+}
+
+.user .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+  text-align: center;
+  padding-top: 5px;
+  color: #fff;
+}
+
+.user .site-layout .site-layout-background {
+  background: #fff;
+}
+
+.user .ant-menu a{
+  color:#fff;
+}
+.user .ant-layout{
+  min-height: 550px;
+}
